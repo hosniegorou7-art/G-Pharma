@@ -1,0 +1,15 @@
+# Node / React
+node_modules/
+dist/
+build/
+
+# Rust / Tauri
+src-tauri/target/
+src-tauri/.cargo/
+*.pdb
+*.exe
+*.dll
+
+# Logs & temp
+*.log
+.DS_Store
