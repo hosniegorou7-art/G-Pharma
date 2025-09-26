@@ -1,6 +1,6 @@
 # PharmaCare - Système de Gestion de Pharmacie
 
-Un système complet de gestion de pharmacie développé avec React/Vite pour le frontend et Node.js/Express avec MySQL pour le backend. Disponible en version web et application de bureau.
+Un système complet de gestion de pharmacie développé avec React/Vite pour le frontend et Node.js/Express avec MySQL pour le backend. Disponible en version web.
 
 ## 🚀 Fonctionnalités
 
@@ -75,11 +75,6 @@ Un système complet de gestion de pharmacie développé avec React/Vite pour le 
 - **node-cron** pour les tâches programmées
 - **CORS** pour les requêtes cross-origin
 
-### Application de Bureau
-- **Tauri** pour l'application native
-- **Rust** pour le backend natif
-- **Impression native** intégrée
-- **Gestion de fichiers** native
 
 ## 🚀 Installation et Configuration
 
@@ -120,28 +115,7 @@ npm run dev
 npm run server
 ```
 
-### Application de Bureau
 
-**Développement:**
-```bash
-npm run tauri:dev
-```
-
-**Build pour production:**
-```bash
-npm run tauri:build
-```
-
-## 🔐 Comptes de Test
-
-L'application inclut des comptes de test prédéfinis :
-
-| Rôle | Nom d'utilisateur | Mot de passe | Accès |
-|------|-------------------|--------------|-------|
-| Administrateur | admin | admin123 | Complet |
-| Pharmacien | pharmacien | pharma123 | Complet |
-| Caissier | caissier | caisse123 | Ventes + Base |
-| Vendeur | vendeur | vendeur123 | Consultation uniquement |
 
 ## 🔒 Système de Rôles
 
@@ -183,13 +157,6 @@ L'application inclut des comptes de test prédéfinis :
 - Système d'espacement cohérent (8px)
 
 ## 🖨️ Impression
-
-### Application de Bureau
-- Impression native via Tauri
-- Formatage professionnel des factures
-- Gestion automatique des imprimantes
-
-### Version Web
 - Impression via navigateur
 - Fenêtre d'impression dédiée
 - Compatible avec tous les navigateurs modernes
@@ -259,13 +226,6 @@ DB_NAME=pharmacare_db
 - Contrôle d'accès basé sur les rôles
 
 ## 🚀 Déploiement
-
-### Application de Bureau
-1. Construire l'application : `npm run tauri:build`
-2. L'exécutable sera généré dans `src-tauri/target/release/`
-3. Distribuer l'installateur selon la plateforme
-
-### Version Web
 1. Build du frontend : `npm run build`
 2. Déployer le dossier `dist` sur un serveur web
 3. Configurer le backend sur un serveur Node.js
@@ -279,8 +239,8 @@ Pour toute question ou problème :
 
 ## 📄 Licence
 
-Ce projet est développé pour un usage professionnel en pharmacie.
+Ce projet est développé par HOSNIE STEVEN GOROU pour un usage professionnel en pharmacie.
 
 ---
 
-**PharmaCare** - Système de gestion moderne pour pharmacies professionnelles disponible en version web et application de bureau native.
+**PharmaCare** - Système de gestion moderne pour pharmacies professionnelles disponible en version web.
